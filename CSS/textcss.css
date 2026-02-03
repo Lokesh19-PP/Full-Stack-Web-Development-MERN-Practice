@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+    font-weight: lighter;
+    text-decoration: blue line-through;
+}
+
+h2{
+    text-decoration: red wavy underline;
+    font-weight: bolder;
+}
+p{
+    line-height: 2.5;
+    letter-spacing: 2px;
+}
