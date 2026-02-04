@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universal seletor</title>
+    <link rel="stylesheet" href="universalSelector.css">
+</head>
+<body>
+    <h1>Race Registration !!!</h1>
+    <form action="/registration">
+        <label for="firstname">First Name</label>
+        <input type="text" name="firstname" id="firstname" required>
+        <label for="lastname">Last Name</label>
+        <input type="text" name="lastname" id="lastname" required><br><br>
+        <label><b>Select the Race : </b></label><br>
+        <input type="radio" name="race" value="Just Fun 5Km">Just Fun 5Km
+        <br>
+        <input type="radio" name="race" value="Half Marathon">Half Marathon
+        <br>
+        <input type="radio" name="race" value="Full Marathon">Full Marathon
+        <br><br>
+        <label for="email">email</label>
+        <input type="email" name="email" id="email" required>
+        <label for="password">Password</label>
+        <input type="password" name="Password" id="password" required><br><br>
+        <label for="age">Choose Age </label>
+        <select name="age" id="age">
+            <option value="18-30">18-30</option>
+            <option value="31-50">31-50</option>
+            <option value="51+">51+</option>
+        </select><br><br>
+        <button>Register !!!</button>
+    </form>
+</body>
+</html>
