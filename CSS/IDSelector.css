@@ -1,0 +1,18 @@
+*{
+    background-color: rgb(233, 200, 233);
+    color: rgb(23, 28, 28);
+}
+
+button{
+    color: black;
+    background-color: azure;
+}
+
+label{
+    color: brown;
+}
+
+#main{
+    color: rgb(205, 173, 113);
+    text-decoration: black underline;
+}
