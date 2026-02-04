@@ -1,0 +1,13 @@
+body{
+    padding-left: 250px;
+    padding-right: 250px;
+}
+h1,h2{
+    color: teal;
+}
+.tag{
+    text-align: center;
+}
+.space{
+    letter-spacing: 1px;
+}
