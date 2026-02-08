@@ -1,0 +1,11 @@
+section{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+}
+
+#rgba{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(250, 235, 215, 0.7);
+}
