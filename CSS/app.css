@@ -4,7 +4,7 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #151b29;
+    background-image: url(https://image-processor-storage.s3.us-west-2.amazonaws.com/images/3cf61c1011912a2173ea4dfa260f1108/halo-of-neon-ring-illuminated-in-the-stunning-landscape-of-yosemite.jpg);
 }
 
 button{
