@@ -1,20 +1,22 @@
 body{
-    font-family: monospace;
+    font-family: ;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
     background-image: url(https://image-processor-storage.s3.us-west-2.amazonaws.com/images/3cf61c1011912a2173ea4dfa260f1108/halo-of-neon-ring-illuminated-in-the-stunning-landscape-of-yosemite.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: top;
 }
 
 button{
-    background: none;
+    background-color: black;
     color: #ffa260;
     border: 2px solid;
     padding: 1em;
-    font-size: 1em;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     transition: all 0.25s;
 }
 
