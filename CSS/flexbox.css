@@ -17,8 +17,8 @@ h1{
     text-align: center;
     /* flex-direction: row;
     flex-direction: row-reverse;*/
-    flex-direction: column;
-    /* flex-direction: row; */
+    /* flex-direction: column; */
+    flex-direction: row;
     /* justify-content: flex-start; */
     /* justify-content: flex-end; */
     /* justify-content: space-around; */
@@ -27,15 +27,22 @@ h1{
     justify-content: center;
     flex-wrap: wrap;
     /* flex-wrap: wrap-reverse; */
-    /* align-items: flex-start; */
-    align-items: flex-end;
+    align-items: flex-start;
+    /* align-items: flex-end; */
     /* align-items: center; */
     /* align-content: center; */
     /* align-content: space-evenly; */
-    align-content: flex-start;
+    /* align-content: flex-start; */
 }
 
 #container div{
     width: 200px;
     height: 200px;
+}
+
+div:nth-of-type(3){
+    align-self: center;
+}
+div:nth-of-type(1){
+    align-self: flex-end;
 }
