@@ -22,6 +22,8 @@ h1{
     /* justify-content: space-around; */
     /* justify-content: space-between; */
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
 }
 
 #container div{
