@@ -1,0 +1,77 @@
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar container */
+.navbar {
+    background-color: #222;    /* Dark base color */
+    padding: 12px 20px;        /* Spacing */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial, sans-serif;
+}
+
+/* Logo */
+.nav-logo {
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Navigation list */
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 18px;               /* Space between links */
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 10px;
+    transition: background 0.3s;
+}
+
+/* Hover effect */
+.nav-list li a:hover {
+    background-color: #444;   /* Slight color on hover */
+    border-radius: 4px;
+}
+
+/* Highlight for signup */
+.nav-signup {
+    font-weight: bold;
+    background-color: #ff5722;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.nav-signup:hover {
+    background-color: #e64a19;
+}
+
+/* Mobile responsive: stack vertically */
+@media (max-width: 600px) {
+    .nav-list {
+        flex-direction: column;
+        gap: 12px;
+        align-items: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-signup { 
+        align-self: center;
+    }
+}
