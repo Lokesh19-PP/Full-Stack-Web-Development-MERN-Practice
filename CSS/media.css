@@ -1,0 +1,36 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+    font-size: 6em;
+    text-align: center;
+}
+
+nav{
+    font: 1.5em;
+}
+
+ul,li{
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+/* @media (min-width: 600px) and (max-width:800px){
+    h1{
+        color: purple;
+    }
+} */
+
+@media (max-width: 100px){
+    h1{
+        color: rgb(236, 131, 44);
+    }
+}
+
+@media (max-width: 400px){
+    h1{
+        color: red;
+    }
+}
