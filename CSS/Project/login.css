@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/2025/05/Adventure-Time-characters-on-a-roller-coaster-through-candy-meteors.webp);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    width: 380px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    padding: 40px 30px;
+    backdrop-filter: blur(8px);
+}
+
+h1 {
+    color: #2f4f2f;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+label {
+    display: block;
+    color: #3a5f0b;
+    font-weight: 600;
+    margin-bottom: 6px;
+    font-size: 17px;
+}
+
+input {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 16px;
+    color: #334;
+    border: 2px solid #6b8e23;
+    border-radius: 10px;
+    background-color: #fafafa;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus {
+    border-color: #8db600;
+    box-shadow: 0 0 6px rgba(141, 182, 0, 0.4);
+    outline: none;
+}
+
+button {
+    width: 100%;
+    margin-top: 5px;
+    padding: 11px;
+    background-color: #9acd32;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #7fae1f;
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+p {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 16px;
+    color: #444;
+}
+
+a {
+    color: #9b4d8c;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #7f3d70;
+}
