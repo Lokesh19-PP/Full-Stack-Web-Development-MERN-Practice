@@ -10,7 +10,7 @@ The goal of this repository is to improve my full-stack web development skills t
 - React.js
 - Node.js
 - JavaScript (ES6+)
-- HTML, CSS, Tailwind CSS
+- HTML, CSS, CSS-Bootstrap
 
 ## 📂 What This Repo Contains
 - Daily MERN practice code
@@ -19,7 +19,6 @@ The goal of this repository is to improve my full-stack web development skills t
 - CRUD operations
 - Frontend components with React
 - Backend APIs with Node & Express
-- Mini full-stack projects
 
 ## 📅 Learning Approach
 - Regular commits to maintain consistency
