@@ -28,20 +28,48 @@
 //   console.log("sunday");
 // }
 
+// let a = 10,
+//   b = 20,
+//   c = 25;
+
+// if (a > b) {
+//   if (a > c) {
+//     console.log("a is greater");
+//   } else {
+//     console.log("c is a greater");
+//   }
+// } else {
+//   if (b > c) {
+//     console.log("b is greater");
+//   } else {
+//     console.log("c is greater");
+//   }
+// }
+
 let a = 10,
   b = 20,
   c = 25;
 
-if (a > b) {
-  if (a > c) {
-    console.log("a is greater");
-  } else {
-    console.log("c is a greater");
-  }
+if (a > b && a > c) {
+  console.log("a is greater");
+} else if (b > a && b > c) {
+  console.log("b is grater");
 } else {
-  if (b > c) {
-    console.log("b is greater");
-  } else {
-    console.log("c is greater");
-  }
+  console.log("c is grater");
+}
+
+let age = 70;
+
+if (age < 5 || age >= 65) {
+  console.log("free");
+} else if (age < 10 || age <= 18) {
+  console.log("$10");
+} else {
+  comsole.log("$20");
+}
+
+let fname = prompt("enter your name : ");
+
+if (!fname) {
+  name = prompt("try again!!");
 }
