@@ -47,3 +47,13 @@ console.log(colors.slice(-3));
 
 console.log(colors.splice(5, 1));
 console.log(colors);
+
+// multi dimensional array
+
+let multiArr = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+];
+console.log(multiArr);
+console.log(multiArr[0][2]);
