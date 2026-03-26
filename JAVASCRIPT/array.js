@@ -20,3 +20,11 @@ console.log(student);
 
 student.reverse();
 console.log(student);
+
+let arr1 = [1, 2, 3, 4, 5];
+let arr2 = [6, 7, 8, 9, 10];
+let arr3 = arr1.concat(arr2);
+console.log(arr3);
+console.log(arr3.includes(5));
+console.log(arr3.includes(11));
+console.log(arr3.indexOf(7));
