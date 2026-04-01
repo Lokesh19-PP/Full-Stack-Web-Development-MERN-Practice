@@ -46,3 +46,19 @@ while (n < 10) {
   console.log(n);
   n++;
 }
+
+const arr = [1, 2, 3, 4, 5, 6, 78, 9];
+for (let no of arr) {
+  console.log(no);
+}
+
+for (let char of "lokesh") {
+  console.log(char);
+}
+
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]; //DON'T CHANGE THIS LINE PLEASE!
+
+// WRITE YOUR LOOP BELOW THIS LINE:
+for (let no of numbers) {
+  console.log(no * no);
+}
