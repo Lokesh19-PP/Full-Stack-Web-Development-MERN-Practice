@@ -26,3 +26,17 @@ for (let i = 0; i < 10; i++) {
     console.log("inner : " + j);
   }
 }
+
+let num = 0;
+while (num < 11) {
+  console.log(num);
+  num++;
+}
+
+const secret = "baby";
+
+let guess = prompt("enter the secrete code .....");
+while (guess !== secret) {
+  guess = prompt("enter the secrete code .....");
+}
+console.log("Congrats...");
