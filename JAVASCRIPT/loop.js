@@ -33,10 +33,16 @@ while (num < 11) {
   num++;
 }
 
-const secret = "baby";
+// const secret = "baby";
 
-let guess = prompt("enter the secrete code .....");
-while (guess !== secret) {
-  guess = prompt("enter the secrete code .....");
+// let guess = prompt("enter the secrete code .....");
+// while (guess !== secret) {
+//   guess = prompt("enter the secrete code .....");
+// }
+// console.log("Congrats...");
+let n = 1;
+while (n < 10) {
+  if (n == 5) break;
+  console.log(n);
+  n++;
 }
-console.log("Congrats...");
