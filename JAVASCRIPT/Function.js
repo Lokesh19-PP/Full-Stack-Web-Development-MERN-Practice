@@ -22,3 +22,14 @@ function rant(message) {
   console.log(message.toUpperCase());
 }
 rant("I hate beets");
+
+function add(x, y) {
+  if (typeof x !== "number" || typeof y !== "number") return false;
+  return x + y;
+}
+console.log(`Sum of ${10} and ${20} is ${add(10, 20)}`);
+
+function multiply(x, y) {
+  return x * y;
+}
+console.log(multiply(10, 30));
