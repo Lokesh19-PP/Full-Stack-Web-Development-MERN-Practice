@@ -28,3 +28,13 @@ const square = function (x) {
   return x * x;
 };
 square(4);
+
+//Higher Order Function
+function callTwice(func) {
+  func();
+  func();
+}
+function RollDie() {
+  console.log(Math.floor(Math.random() * 6) + 1);
+}
+callTwice(RollDie);
