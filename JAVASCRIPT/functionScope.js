@@ -54,3 +54,15 @@ function make() {
 }
 let temp = make();
 temp();
+
+//Defining Method
+const square = {
+  area(x) {
+    return x * x;
+  },
+  perimeter(x) {
+    return x * 4;
+  },
+};
+square.area(10);
+square.perimeter(4);
