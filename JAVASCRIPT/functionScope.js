@@ -38,3 +38,19 @@ function RollDie() {
   console.log(Math.floor(Math.random() * 6) + 1);
 }
 callTwice(RollDie);
+
+//Returning Function
+function make() {
+  const rand = Math.random();
+  if (rand > 0.5) {
+    return function () {
+      console.log("Congrats");
+    };
+  } else {
+    return function () {
+      alert("Computer Virus");
+    };
+  }
+}
+let temp = make();
+temp();
