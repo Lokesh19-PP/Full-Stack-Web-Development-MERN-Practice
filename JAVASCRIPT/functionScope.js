@@ -56,7 +56,7 @@ let temp = make();
 temp();
 
 //Defining Method
-const square = {
+const square_ = {
   area(x) {
     return x * x;
   },
@@ -64,5 +64,20 @@ const square = {
     return x * 4;
   },
 };
-square.area(10);
-square.perimeter(4);
+square_.area(10);
+square_.perimeter(4);
+
+//this Keyword
+const hen = {
+  name: "Helen",
+  eggCount: 0,
+  layAnEgg() {
+    this.eggCount++;
+    return "EGG";
+  },
+};
+hen.name;
+hen.eggCount;
+hen.layAnEgg();
+hen.layAnEgg();
+hen.eggCount;
