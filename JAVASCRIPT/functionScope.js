@@ -22,3 +22,9 @@ function bank() {
   cryforhelp();
 }
 bank();
+
+//function Expression
+const square = function (x) {
+  return x * x;
+};
+square(4);
